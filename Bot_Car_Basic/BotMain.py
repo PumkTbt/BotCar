@@ -4,20 +4,20 @@ import serial
 from tkinter import *
 import tkinter as tk
 
-import BotOBDIIcmd as cmd
-from CA_Parametter import color
-from CA_Parametter import text
-from CA_Parametter import size
-from CA_Parametter import string_handling
+import BotOBDII_cmd as cmd
+from Bot_Parametter import color
+from Bot_Parametter import text
+from Bot_Parametter import size
+from Bot_Parametter import string_handling
 #Thư viện xử lí trợ lý đơn giản
 import datetime
 import time
 import requests
 import wikipedia
 wikipedia.set_lang('vi')
-from CA_Speak import play
-from CA_Hear import get_text
-from CA_Hear import hear
+from BotSpeak import play
+from Bot_Hear import get_text
+from Bot_Hear import hear
 from geopy.distance import geodesic
 from urllib.parse import urlencode
 
