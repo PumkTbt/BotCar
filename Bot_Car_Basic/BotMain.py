@@ -4,7 +4,7 @@ import serial
 from tkinter import *
 import tkinter as tk
 
-import CA_OBD_Command as cmd
+import BotOBDIIcmd as cmd
 from CA_Parametter import color
 from CA_Parametter import text
 from CA_Parametter import size
