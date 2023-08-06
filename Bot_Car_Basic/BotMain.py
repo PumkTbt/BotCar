@@ -228,22 +228,10 @@ class GUI():
         self.car_info.rowconfigure(2, weight=1)
         self.car_info.pack(side=TOP,fill=X, padx=15, pady=15)
         # ==============================================================================================
-        # Frame thông tin tên sinh viên thực hiện
         self.author_frame = LabelFrame(self.master, text="", font=("Arial", 15, "bold"), bg=color.frame,
                                        pady=5)
-        self.authurtitle = Label(self.author_frame, text="Giảng viên hướng dẫn", font=("Arial", 15,"bold"), bg=color.frame)
-        self.authurtitle.grid(row=0, column=0, pady=15)
-        self.authur0 = Label(self.author_frame, text="ThS Nguyễn Thanh Đăng", font=("Arial", 15), bg=color.frame)
+        self.authur0 = Label(self.author_frame, text="Tbt", font=("Arial", 15), bg=color.frame)
         self.authur0.grid(row=1, column=0, pady=15)
-        self.authurtitle2 = Label(self.author_frame, text="Sinh viên thực hiện ", font=("Arial", 15,"bold"), bg=color.frame)
-        self.authurtitle2.grid(row=0, column=1, pady=15)
-        self.authurtitle3 = Label(self.author_frame, text="Sinh viên thực hiện ", font=("Arial", 15,"bold"), bg=color.frame)
-        self.authurtitle3.grid(row=0, column=2, pady=15)
-        self.authur1 = Label(self.author_frame, text=text.Ngan, font=("Arial", 15), bg=color.frame)
-        self.authur1.grid(row=1, column=1, pady=15)
-
-        self.authur2 = Label(self.author_frame, text=text.Duc, font=("Arial", 15), bg=color.frame)
-        self.authur2.grid(row=1, column=2, pady=15)
 
         self.author_frame.grid_columnconfigure(0, weight=1)
         self.author_frame.grid_columnconfigure(1, weight=1)
