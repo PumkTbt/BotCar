@@ -46,9 +46,6 @@ class text():
     c8 = 'Vị trí bướm ga:'
     null = 'Null'
 
-    Ngan = 'Nguyễn Thanh Ngân  - 19441411'
-    Duc = 'Lê Công Hoài Đức - 19430021'
-
 if __name__ == '__main__':
 
     print(string_handling(str("0.0 revolutions_per_minute"), 1))
